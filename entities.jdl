@@ -1,0 +1,20 @@
+entity CsytOneBss {
+    maCsyt String maxlength(50) required
+    maThuebao String maxlength(50) required
+    maDuan String maxlength(50) required
+    trangthai Integer required /* 1.Khởi tạo, 2.Gia hạn, 3.Hủy */
+    thoigianCapnhat LocalDate required
+    maTinh String maxlength(50)
+    maSpdv String maxlength(50)
+    maHopdong String maxlength(50)
+    ngaykyHopdong LocalDate
+    hieulucTu LocalDate
+    hieulucDen LocalDate
+    tenKhachhang String maxlength(255)
+    diachiKhachhang String maxlength(255)
+    mota String maxlength(4000)
+    lastUser String maxlength(255)
+    lastModified ZonedDateTime
+}
+
+filter CsytOneBss

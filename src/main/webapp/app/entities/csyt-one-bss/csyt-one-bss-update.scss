@@ -1,0 +1,15 @@
+.date {
+  position: relative;
+  display: inline-block;
+}
+
+.calendar {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1000;
+  border: 1px solid #c4c2c282;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 315px;
+}

@@ -1,0 +1,61 @@
+{
+  "csytApp": {
+    "csytOneBss": {
+      "home": {
+        "title": "Csyt One Bsses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create new",
+        "createOrEditLabel": "Create or edit",
+        "notFound": "No Csyt One Bsses found"
+      },
+      "filter": {
+        "maCsyt": "Mã CSYT",
+        "maThuebao": "Mã thuê bao",
+        "maDuan": "Mã dự án",
+        "trangthai": "Trạng thái",
+        "thoigianCapnhat": "Thời gian cập nhật",
+        "maTinh": "Mã tỉnh",
+        "maSpdv": "Mã SPDV",
+        "maHopdong": "Mã hợp đồng",
+        "ngaykyHopdong": "Ngày ký hợp đồng",
+        "hieulucTu": "Hiệu lực từ",
+        "hieulucDen": "Hiệu lực đến",
+        "tenKhachhang": "Tên khách hàng",
+        "diachiKhachhang": "Địa chỉ khách hàng",
+        "mota": "Mô tả",
+        "lastUser": "Last User",
+        "lastModified": "Last Modified",
+        "filter": "Filter"
+      },
+      "created": "A new Csyt One Bss is created with identifier {{ param }}",
+      "updated": "A Csyt One Bss is updated with identifier {{ param }}",
+      "deleted": "A Csyt One Bss is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Csyt One Bss {{ id }}?"
+      },
+      "detail": {
+        "title": "Csyt One Bss"
+      },
+      "id": "ID",
+      "maCsyt": "Mã CSYT",
+      "maThuebao": "Mã thuê bao",
+      "maDuan": "Mã dự án",
+      "trangthai": "Trạng thái",
+      "thoigianCapnhat": "Thời gian cập nhật",
+      "maTinh": "Mã tỉnh",
+      "maSpdv": "Mã SPDV",
+      "maHopdong": "Mã hợp đồng",
+      "ngaykyHopdong": "Ngày ký hợp đồng",
+      "hieulucTu": "Hiệu lực từ",
+      "hieulucDen": "Hiệu lực đến",
+      "tenKhachhang": "Tên khách hàng",
+      "diachiKhachhang": "Địa chỉ khách hàng",
+      "mota": "Mô tả",
+      "lastUser": "Last User",
+      "lastModified": "Last Modified",
+      "action": "Action",
+      "editLabel": "Edit",
+      "deleteLabel": "Delete"
+    }
+  }
+}

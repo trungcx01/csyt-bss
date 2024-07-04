@@ -1,0 +1,52 @@
+.filter {
+  display: flex;
+  input,
+  select {
+    &:focus {
+      box-shadow: none;
+    }
+    height: 32px;
+    font-size: 12px;
+  }
+
+  .left,
+  .center {
+    display: flex;
+    flex-direction: column;
+  }
+  label {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .right {
+    display: flex;
+    flex-direction: column;
+    .date-range {
+      display: flex;
+      gap: 12px;
+    }
+
+    button {
+      margin-top: 24px;
+      height: 31px;
+      font-size: 12.5px;
+    }
+  }
+}
+
+.date-range {
+  position: relative;
+  display: inline-block;
+}
+
+.range {
+  position: absolute;
+  top: 0;
+  left: 60%;
+  z-index: 1000;
+  border: 1px solid #ccc;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 315px;
+}
